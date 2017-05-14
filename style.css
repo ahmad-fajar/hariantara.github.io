@@ -1,0 +1,123 @@
+* {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background:url(img/background.jpg);
+    background-size: cover;
+}
+nav{
+    background-color: black;
+    color:white;
+}
+.active{
+    background-color: cornsilk;
+}
+
+header {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid rgba(0, 0, 0, .1);
+    /*garis bawah*/
+}
+
+header h2{
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1% ;
+    color: white;
+    display: inline;
+}
+
+
+ul li {
+    
+    font-weight: bold;
+    color: white;
+    padding: 14px 16px;
+    display: inline;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li {
+    
+    float: right;
+    margin: -2.5% 7% 0.5% 1.5%;
+}
+
+photo {
+    border: 10px solid rgba(200, 100, 50, 0.3);
+    margin: 40%;
+    padding: 40%;
+    
+}
+
+#photo {
+    float: left;
+    border-radius: 100%;
+    margin: -10% 0% 10% 20%;/*geser gambar photo*/
+    /*margin: 10% 15% 15% 35%;*/
+    padding: 0;
+    /*border: 1px solid rgba(200, 100, 50, 0.3);*/
+    width: 70%;
+}
+#description{
+    background-color: black;
+    color: white;
+}
+
+.description {
+    display: inline;
+    float: right;
+    padding: 0;
+    margin: 5% 5% 5% 5%;
+    /*border: 1px solid rgba(200, 100, 50, 0.3);*/
+}
+
+#kiri {
+    /*border: 1px solid rgba(200, 100, 50, 0.3);*/
+    margin: 10% 40% 10% 5%;/*geser kotak kiri ke kanan atau atas bawah*/
+    width: 40%;
+    float: left;
+    padding: 5% 0.5% 5% 0.5%;
+}
+
+#kanan {
+    border: 1px solid rgba(200, 100, 50, 0.3);
+    padding: 5% 0.5% 2% 0.5%;
+    margin: -70% 5% 10% 40%;/*untuk mengatur posisi description ke atas bawah atau kanan kiri*/
+    width: 40%;
+    float: right;
+}
+
+.footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#copyright
+{
+    float: center;
+    margin:1% 40% 1% 40%;/*posisi by hackfox*/
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+    text-decoration: none;
+}
